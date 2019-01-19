@@ -239,7 +239,7 @@ return{
 		        // is required bacause the event registration must be signed
 		        // let event_hub = fabric_client.newEventHub();
 		        // event_hub.setPeerAddr('grpc://localhost:7053');
-				let event_hub = channel.newChannelEventHub(fabric_client.newPeer('grpc://peer1:7051'));
+				let event_hub = channel.newChannelEventHub(fabric_client.newPeer('grpc://peer1:8051'));
 		        // using resolve the promise so that result status may be processed
 		        // under the then clause rather than having the catch clause process
 		        // the status
@@ -331,7 +331,7 @@ return{
 
 		// setup the fabric network
 		var channel = fabric_client.newChannel('mychannel');
-		var peer = fabric_client.newPeer('grpc://peer1:7051');
+		var peer = fabric_client.newPeer('grpc://peer1:8051');
 		channel.addPeer(peer);
 		var order = fabric_client.newOrderer('grpc://orderer:7050')
 		channel.addOrderer(order);
@@ -413,7 +413,7 @@ return{
 		        // is required bacause the event registration must be signed
 		        // let event_hub = fabric_client.newEventHub();
 		        // event_hub.setPeerAddr('grpc://localhost:7053');
-				let event_hub = channel.newChannelEventHub(fabric_client.newPeer('grpc://peer1:7051'));
+				let event_hub = channel.newChannelEventHub(fabric_client.newPeer('grpc://peer1:8051'));
 		        // using resolve the promise so that result status may be processed
 		        // under the then clause rather than having the catch clause process
 		        // the status
@@ -504,7 +504,7 @@ return{
 
 		// setup the fabric network
 		var channel = fabric_client.newChannel('mychannel');
-		var peer = fabric_client.newPeer('grpc://peer1:7051');
+		var peer = fabric_client.newPeer('grpc://peer1:8051');
 		channel.addPeer(peer);
 		var order = fabric_client.newOrderer('grpc://orderer:7050')
 		channel.addOrderer(order);
@@ -587,7 +587,7 @@ return{
 		        // is required bacause the event registration must be signed
 		        // let event_hub = fabric_client.newEventHub();
 		        // event_hub.setPeerAddr('grpc://localhost:7053');
-				let event_hub = channel.newChannelEventHub(fabric_client.newPeer('grpc://peer1:7051'));
+				let event_hub = channel.newChannelEventHub(fabric_client.newPeer('grpc://peer1:8051'));
 		        // using resolve the promise so that result status may be processed
 		        // under the then clause rather than having the catch clause process
 		        // the status
@@ -677,7 +677,7 @@ return{
 
 		// setup the fabric network
 		var channel = fabric_client.newChannel('mychannel');
-		var peer = fabric_client.newPeer('grpc://peer1:7051');
+		var peer = fabric_client.newPeer('grpc://peer1:8051');
 		channel.addPeer(peer);
 		var order = fabric_client.newOrderer('grpc://orderer:7050')
 		channel.addOrderer(order);
@@ -760,7 +760,7 @@ return{
 		        // is required bacause the event registration must be signed
 		        // let event_hub = fabric_client.newEventHub();
 		        // event_hub.setPeerAddr('grpc://localhost:7053');
-				let event_hub = channel.newChannelEventHub(fabric_client.newPeer('grpc://peer1:7051'));
+				let event_hub = channel.newChannelEventHub(fabric_client.newPeer('grpc://peer1:8051'));
 		        // using resolve the promise so that result status may be processed
 		        // under the then clause rather than having the catch clause process
 		        // the status
@@ -851,7 +851,7 @@ return{
 
 		// setup the fabric network
 		var channel = fabric_client.newChannel('mychannel');
-		var peer = fabric_client.newPeer('grpc://peer1:7051');
+		var peer = fabric_client.newPeer('grpc://peer1:8051');
 		channel.addPeer(peer);
 		var order = fabric_client.newOrderer('grpc://orderer:7050')
 		channel.addOrderer(order);
@@ -934,7 +934,7 @@ return{
 		        // is required bacause the event registration must be signed
 		        // let event_hub = fabric_client.newEventHub();
 		        // event_hub.setPeerAddr('grpc://localhost:7053');
-				let event_hub = channel.newChannelEventHub(fabric_client.newPeer('grpc://peer1:7051'));
+				let event_hub = channel.newChannelEventHub(fabric_client.newPeer('grpc://peer1:8051'));
 		        // using resolve the promise so that result status may be processed
 		        // under the then clause rather than having the catch clause process
 		        // the status
@@ -1025,7 +1025,7 @@ return{
 
 		// setup the fabric network
 		var channel = fabric_client.newChannel('mychannel');
-		var peer = fabric_client.newPeer('grpc://peer1:7051');
+		var peer = fabric_client.newPeer('grpc://peer1:8051');
 		channel.addPeer(peer);
 		var order = fabric_client.newOrderer('grpc://orderer:7050')
 		channel.addOrderer(order);
@@ -1108,7 +1108,7 @@ return{
 		        // is required bacause the event registration must be signed
 		        // let event_hub = fabric_client.newEventHub();
 		        // event_hub.setPeerAddr('grpc://localhost:7053');
-				let event_hub = channel.newChannelEventHub(fabric_client.newPeer('grpc://peer1:7051'));
+				let event_hub = channel.newChannelEventHub(fabric_client.newPeer('grpc://peer1:8051'));
 		        // using resolve the promise so that result status may be processed
 		        // under the then clause rather than having the catch clause process
 		        // the status
@@ -1199,7 +1199,7 @@ return{
 
 		// setup the fabric network
 		var channel = fabric_client.newChannel('mychannel');
-		var peer = fabric_client.newPeer('grpc://peer1:7051');
+		var peer = fabric_client.newPeer('grpc://peer1:8051');
 		channel.addPeer(peer);
 		var order = fabric_client.newOrderer('grpc://orderer:7050')
 		channel.addOrderer(order);
@@ -1282,7 +1282,7 @@ return{
 		        // is required bacause the event registration must be signed
 		        // let event_hub = fabric_client.newEventHub();
 		        // event_hub.setPeerAddr('grpc://localhost:7053');
-				let event_hub = channel.newChannelEventHub(fabric_client.newPeer('grpc://peer1:7051'));
+				let event_hub = channel.newChannelEventHub(fabric_client.newPeer('grpc://peer1:8051'));
 		        // using resolve the promise so that result status may be processed
 		        // under the then clause rather than having the catch clause process
 		        // the status
