@@ -81,7 +81,7 @@ func (s *SmartContract) Invoke(APIstub shim.ChaincodeStubInterface) sc.Response 
 		return s.queryTrade(APIstub, args) 
 	}else if function == "recordOS"{
 		return s.recordOS(APIstub, args) 
-	}else if function == "recordOS"{
+	}else if function == "recordLCR"{
 		return s.recordLCR(APIstub, args) 
 	}else if function == "recordLC"{
 		return s.recordLC(APIstub, args) 
@@ -462,7 +462,7 @@ func (s *SmartContract) recordCI(APIstub shim.ChaincodeStubInterface, args []str
 		return shim.Error(err.Error())
 	}
 	
-	if len(tradeRecord.Sr.Doc_hash) == 0 {
+	if len(tradeRecord.Ci.Doc_hash) == 0 {
 		tradeRecord.Os.From = ""
 		tradeRecord.Os.To = ""
 		tradeRecord.Os.Doc_hash = ""
