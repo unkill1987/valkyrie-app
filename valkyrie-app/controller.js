@@ -47,7 +47,7 @@ return{
 		        throw new Error('Failed to get user1.... run registerUser.js');
 		    }
 		    const request = {
-		        chaincodeId: 'valkyrie',
+		        chaincodeId: 'valkyrie-app',
 		        txId: tx_id,
 		        fcn: 'keyHistory',
 		        args: [key]
@@ -114,7 +114,7 @@ return{
 		        throw new Error('Failed to get user1.... run registerUser.js');
 		    }
 		    const request = {
-		        chaincodeId: 'valkyrie',
+		        chaincodeId: 'valkyrie-app',
 		        txId: tx_id,
 		        fcn: 'queryTrade',
 		        args: [key]
@@ -195,7 +195,7 @@ return{
 
 		    const request = {
 		        //targets : --- letting this default to the peers assigned to the channel
-		        chaincodeId: 'valkyrie',
+		        chaincodeId: 'valkyrie-app',
 		        fcn: 'recordOS',
 		        args: [key, exporter, importer, os_hash],
 		        chainId: 'mychannel',
