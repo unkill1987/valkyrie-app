@@ -1014,7 +1014,7 @@ return{
 	recordCI: function(req, res){
 		console.log("record CI : ");
 		
-		var array = req.params.record_sr.split("-");
+		var array = req.params.record_ci.split("-");
 		console.log(array)
 		var key = array[0]
 		var exporter = array[1]
